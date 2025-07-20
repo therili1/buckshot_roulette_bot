@@ -179,7 +179,7 @@ def distribute_items(game):
 # Головна функція запуску
 
 def main():
-    app = ApplicationBuilder().token("YOUR_TOKEN_HERE").build()
+    app = ApplicationBuilder().token("8146584127:AAGfTzyqYbClLe09pJ0Xgdnu3JRj8HrnfQM").build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("join", join))
     app.add_handler(CommandHandler("begin", begin))
